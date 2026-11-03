@@ -5,5 +5,5 @@ android/
 work/
 *.log
 .DS_Store
-evidence/
+evidence/PR.md
 patches/
