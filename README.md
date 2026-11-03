@@ -30,7 +30,7 @@ The repository uses the unmodified npm release of @rbayuokt/expo-adaptive-status
 
 With a `tintColor`, the glass contains `CASDFLayer`s. The `layer` capture method draws leaf layers with `CALayer.render(in:)`, and for a `CASDFLayer` that call fills the whole 96×8 sample bitmap with black, even though the glass is nowhere near the strip. Every sample after that reads black.
 
-`evidence/` has a recording before and after the fix, as mp4 and gif.
+`evidence/` has a recording before and after the fix.
 
 A fix that skips `CASDFLayer`s during capture is on [dawid-bytys/expo-adaptive-status-bar@fix/ios-liquid-glass-black-sample](https://github.com/dawid-bytys/expo-adaptive-status-bar/tree/fix/ios-liquid-glass-black-sample).
 
